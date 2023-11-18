@@ -6,13 +6,12 @@
 /*   By: rpambhar <rpambhar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/17 14:33:16 by rpambhar          #+#    #+#             */
-/*   Updated: 2023/10/24 17:05:44 by rpambhar         ###   ########.fr       */
+/*   Updated: 2023/10/20 17:32:56 by rpambhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
-
 
 # include <stdarg.h>
 # include <unistd.h>
@@ -22,6 +21,7 @@ typedef struct s_variables
 {
 	int		cp;
 	int		i;
+	char	*fs;
 	int		error;
 }	t_variables;
 
